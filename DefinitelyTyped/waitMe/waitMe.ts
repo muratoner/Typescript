@@ -52,8 +52,6 @@ interface IWaitMeOptions {
     * Use: '18px'. By default, use empty string.
     */
     fontSize: string
-    sizeW: string
-    sizeH: string
     /**
     * Url to image (string).
     * Use: 'url'. By default, use empty string. Use with effect: 'img'.
