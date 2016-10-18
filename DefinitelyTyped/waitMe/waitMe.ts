@@ -1,9 +1,10 @@
 /*
- * - This typescript definition file created by Murat ÖNER.
- * - Created Date: 06-27-2015.
- * - Updated Date: 10-18-2015.
- * - https://github.com/muratoner/typescript visit for more typescript definition file.
- * - http://www.muratoner.net address visit for typescript and other technologies about more information.
+ * Type definitions for waitMe.js 1.18[23.09.16]
+ * This typescript definition file created by Murat ÖNER.
+ * Created Date: 06-27-2015.
+ * Updated Date: 10-18-2015.
+ * https://github.com/muratoner/typescript visit for more typescript definition file.
+ * http://www.muratoner.net address visit for typescript and other technologies about more information.
  */
 
 /**
