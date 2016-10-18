@@ -1,1 +1,1 @@
-TypeScript
+TypeScript Samples and DefinitelyTyped 
