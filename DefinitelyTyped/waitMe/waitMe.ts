@@ -22,47 +22,47 @@ namespace waitMe {
         * Use: 'bounce'
         * Default: 'bounce' effect.
         */
-        effect: "bounce" | "rotatePlane" | "stretch" | "orbit" | "roundBounce" | "win8_linear" | "win8" | "ios" | "facebook" | "rotation" | "timer" | "pulse" | "progressBar" | "bouncePulse" | "img" | "none"
+        effect?: "bounce" | "rotatePlane" | "stretch" | "orbit" | "roundBounce" | "win8_linear" | "win8" | "ios" | "facebook" | "rotation" | "timer" | "pulse" | "progressBar" | "bouncePulse" | "img" | "none"
         /**
         * Place text under the effect (string).
         * Use: 'text'.
         */
-        text: string
+        text?: string
         /**
         * Background for container (string).
         * Use: 'rgba(255,255,255,0.7)'. You can use color and image.
         */
-        bg: any
+        bg?: any
         /**
         * Color for background animation and text (string, array).
         * Use: '#000', ['','',...] - you can use multicolor for effect
         */
-        color: string | Array<string>
+        color?: string | Array<string>
         /**
         * Set max size for elem animation (string).
         * Use: 40. By default, use empty string.
         */
-        maxSize: string
+        maxSize?: string
         /**
         * Change text position (string).
         * Use: 'vertical'
         * Default, 'horizontal'.
         */
-        textPos: "vertical" | "horizontal"
+        textPos?: "vertical" | "horizontal"
         /**
         * Change font size (string).
         * Use: '18px'. By default, use empty string.
         */
-        fontSize: string
+        fontSize?: string
         /**
         * Url to image (string).
         * Use: 'url'. By default, use empty string. Use with effect: 'img'.
         */
-        source: string
+        source?: string
         /**
         * Code execution after closed (function).
         * Use: function(){}
         */
-        onClose: Function
+        onClose?: Function
     }
 }
