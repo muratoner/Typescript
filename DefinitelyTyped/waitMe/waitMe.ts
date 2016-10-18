@@ -47,7 +47,7 @@ interface IWaitMeOptions {
     * Use: 'vertical'
     * Default, 'horizontal'.
     */
-    textPos: string
+    textPos: "vertical" | "horizontal"
     /**
     * Change font size (string).
     * Use: '18px'. By default, use empty string.
