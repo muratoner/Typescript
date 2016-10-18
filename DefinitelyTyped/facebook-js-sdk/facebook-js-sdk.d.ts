@@ -1,6 +1,6 @@
 // Type definitions for the Facebook Javascript SDK
 // Project: https://developers.facebook.com/docs/javascript
-// Definitions by: Murat ÖNER <https://github.com/muratoner/>
+// Definitions by: Murat Ã–NER <https://github.com/muratoner/>
 // Definitions: https://github.com/muratoner/typescript/tree/master/DefinitelyTyped/
 
 import fb = facebook;
@@ -138,19 +138,13 @@ declare namespace facebook {
 
     namespace core {
         interface UI {
-            /**
-            * Your app's unique identifier. Required.
-            */
+            // Your app's unique identifier. Required.
             app_id?: string
             method?: "send" | "feed" | "share"
             name?: string
-            /**
-            * Required parameter. The URL that is being sent in the message.
-            */
+            // Required parameter. The URL that is being sent in the message.
             link?: string
-            /**
-            * A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.
-            */
+            // A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.
             to?: string | Array<string>
             description?: string
             // Use with feed method
