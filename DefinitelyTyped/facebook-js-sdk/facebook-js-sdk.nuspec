@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MHG.Facebook.Js.Sdk</id>
+        <version>1.0.0</version>
+        <title>Facebook JS SDK TypeScript Definitions</title>
+        <authors>Murat ÖNER</authors>
+        <owners>Murat ÖNER</owners>
+        <licenseUrl>https://github.com/muratoner/Typescript/tree/master/DefinitelyTyped/facebook-js-sdk</licenseUrl>
+        <projectUrl>https://github.com/muratoner/Typescript/tree/master/DefinitelyTyped/facebook-js-sdk</projectUrl>
+        <iconUrl>https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Facebook JS SDK TypeScript Definitions.</description>
+        <summary>Facebook JS SDK TypeScript Definitions.</summary>
+        <releaseNotes>Added first package</releaseNotes>
+        <copyright>Murat ÖNER</copyright>
+        <language />
+        <tags>Typescript TS Facebook JS SDK</tags>
+    </metadata>
+    <files>
+        <file src="facebook-js-sdk.d.ts" target="scripts\typings\Facebook\facebook-js-sdk.d.ts" />
+    </files>
+</package>
