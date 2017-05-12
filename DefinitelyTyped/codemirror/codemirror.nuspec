@@ -6,15 +6,12 @@
         <title>CodeMirror TypeScript Definitions</title>
         <authors>Murat ÖNER</authors>
         <owners>Murat ÖNER</owners>
-        <licenseUrl>https://github.com/muratoner/Typescript/tree/master/DefinitelyTyped/codemirror</licenseUrl>
         <projectUrl>https://github.com/muratoner/Typescript/tree/master/DefinitelyTyped/codemirror</projectUrl>
         <iconUrl>https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>CodeMirror TypeScript Definitions.</description>
         <summary>CodeMirror TypeScript Definitions.</summary>
         <releaseNotes>Added first package</releaseNotes>
-        <copyright>Murat ÖNER</copyright>
-        <language />
         <tags>Typescript TS CodeMirror</tags>
     </metadata>
     <files>

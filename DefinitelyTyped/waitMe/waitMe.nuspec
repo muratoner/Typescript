@@ -2,22 +2,24 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>MHG.waitMe</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <title>waitMe TypeScript Definitions</title>
         <authors>Murat ÖNER</authors>
         <owners>Murat ÖNER</owners>
-        <licenseUrl>https://github.com/muratoner/Typescript/tree/master/DefinitelyTyped/waitMe</licenseUrl>
         <projectUrl>https://github.com/muratoner/Typescript/tree/master/DefinitelyTyped/waitMe</projectUrl>
         <iconUrl>https://pbs.twimg.com/profile_images/743155381661143040/bynNY5dJ_400x400.jpg</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>waitMe is jquery plugin for easy creating loading css3/images animations and this package helped for typescript code typings.</description>
         <summary>waitMe is jquery plugin for easy creating loading css3/images animations and this package helped for typescript code typings.</summary>
-        <releaseNotes>Added first package</releaseNotes>
-        <copyright>Murat ÖNER</copyright>
-        <language />
+        <releaseNotes>
+            Added jquery dependency package define.
+        </releaseNotes>
         <tags>Typescript TS waitMe</tags>
+        <dependencies>
+            <dependency id="jquery.TypeScript.DefinitelyTyped" version="1.1.0" />
+        </dependencies>
     </metadata>
     <files>
-        <file src="waitMe.d.ts" target="scripts\typings\waitMe\waitMe.d.ts" />
+        <file src="*.ts" target="scripts\typings\waitMe\waitMe.d.ts" />
     </files>
 </package>
