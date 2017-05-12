@@ -15,7 +15,7 @@ interface JQuery {
     waitMe(options: waitMe.IWaitMeOptions)
 }
 
-namespace waitMe {
+declare namespace waitMe {
     export interface IWaitMeOptions {
         /**
         * Animation effect (string).
